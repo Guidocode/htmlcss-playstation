@@ -60,7 +60,7 @@ header nav .row{
 */
 
 /* Games */
-.gb-ps5{
+#games .gb-width{
   width: 500px;
 }
 /* /Games  */
@@ -84,6 +84,9 @@ header nav .row{
 
 
 /* Esplora play 4  */
+#esplora .gb-width{
+  width: 500px;
+}
 /* /Esplora play 4  */
 
 
@@ -95,6 +98,9 @@ header nav .row{
 
 
 /* Sconti  */
+#sconti .gb-width{
+  width: 70%;
+}
 /* /Sconti  */
 
 
