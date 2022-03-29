@@ -110,6 +110,10 @@ header{
   background-size: cover;
   background-position: center;
 }
+
+#it-takes-two img{
+  width: 50%;
+}
 /* /it-takes-two */
 
 
