@@ -50,9 +50,6 @@ header nav .row{
   margin-top: 100px;
 }
 
-.gb-col{
-  width: 400px;
-}
 
 
 
@@ -74,6 +71,11 @@ header nav .row{
 
 
 /* it-takes-two  */
+#it-takes-two{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
 /* /it-takes-two */
 
 
