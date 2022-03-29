@@ -66,6 +66,22 @@ header{
 #games .gb-width{
   width: 500px;
 }
+
+#games .gb-card img{
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+#games .play-5 span{
+  color: #0066CD;
+  text-transform: uppercase;
+}
+
+#games .play-5 p{
+  color: #5B5B5B;
+  margin-top: 20px;
+}
 /* /Games  */
 
 
