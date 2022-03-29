@@ -9,9 +9,6 @@ header{
   z-index: 999;
 }
 
-.gb-header-bottom{
-  height: 70px;
-}
 
 /* header nav{
   height: 100%;
@@ -46,9 +43,16 @@ header nav .row{
 /* 
   JUMBOTRON 
 */
+.jumbotron{
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+}
 
-
-
+.gb-col{
+  width: 400px;
+}
 
 
 
