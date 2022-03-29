@@ -63,7 +63,7 @@ header{
 */
 
 /* Games */
-#games .gb-width{
+#games .gb-title-width{
   width: 500px;
 }
 
@@ -77,15 +77,30 @@ header{
   color: #0066CD;
   text-transform: uppercase;
 }
-
-#games .play-5 p{
-  color: #5B5B5B;
-  margin-top: 20px;
-}
 /* /Games  */
 
 
 /* Console  */
+#console img{
+  width: 100%;
+}
+
+#console .gb-card{
+  filter: opacity(.7);
+}
+
+#console .gb-card:hover{
+  filter: opacity(1);
+}
+
+#console .gb-card.active{
+  border-bottom: 1px solid #006CCD;
+  filter: opacity(1);
+}
+
+#console .gb-card img{
+  width: 50%;
+}
 /* /Console  */
 
 
@@ -103,7 +118,7 @@ header{
 
 
 /* Esplora play 4  */
-#esplora .gb-width{
+#esplora .gb-title-width{
   width: 500px;
 }
 /* /Esplora play 4  */
@@ -117,7 +132,7 @@ header{
 
 
 /* Sconti  */
-#sconti .gb-width{
+#sconti .gb-title-width{
   width: 70%;
 }
 /* /Sconti  */
