@@ -21,8 +21,24 @@ header nav .row{
   height: 100%;
 } */
 
+.gb-header-top{
+  background-color: black;
+}
 
+.sony-logo{
+  width: 70px;
+  filter: invert(-1);
+  margin-right: 5px;
+}
 
+.gb-lens{
+  width: 20px;
+  margin: 0 15px;
+}
+
+.gb-lens img{
+  width: 100%;
+}
 
 
 

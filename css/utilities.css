@@ -1,5 +1,11 @@
-
-
+/* BTN  */
+.gb-btn{
+  border-radius: 20px;
+  color: white;
+  background-color: #363537;
+  margin: 0 10px;
+}
+/* /BTN  */
 
 
 
