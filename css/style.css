@@ -81,6 +81,12 @@ header{
 
 
 /* Console  */
+#console .play-5 span{
+  color: #0066CD;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
 #console img{
   width: 100%;
 }
@@ -113,6 +119,7 @@ header{
 
 #it-takes-two img{
   width: 50%;
+  margin-bottom: 20px;
 }
 /* /it-takes-two */
 
@@ -134,6 +141,11 @@ header{
 /* Esplora play 4  */
 #esplora .gb-title-width{
   width: 500px;
+}
+
+#esplora .gb-card img{
+  width: 100%;
+  margin: 10px 0;
 }
 /* /Esplora play 4  */
 
