@@ -118,6 +118,16 @@ header{
 
 
 /* Nuove uscite  */
+#nuove-uscite{
+  color: white;
+  background-color: #1F1F1F;
+}
+
+#nuove-uscite .gb-card img{
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0;
+}
 /* /Nuove uscite  */
 
 
