@@ -5,6 +5,11 @@
   background-color: #363537;
   margin: 0 10px;
 }
+
+.gb-btn-danger{
+  background-color: #CD3D10;
+  margin-left: 0;
+}
 /* /BTN  */
 
 /* col  */

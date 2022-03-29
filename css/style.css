@@ -9,15 +9,6 @@ header{
   z-index: 999;
 }
 
-
-/* header nav{
-  height: 100%;
-}
-
-header nav .row{
-  height: 100%;
-} */
-
 .gb-header-top{
   background-color: black;
 }
@@ -44,12 +35,24 @@ header nav .row{
   JUMBOTRON 
 */
 .jumbotron{
+  height: 550px;
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
   margin-top: 100px;
 }
 
+.jumbo-logo{
+  width: 200px;
+}
+
+.jumbo-logo img{
+  width: 100%;
+}
+
+.jumbotron p{
+  font-size: .9rem;
+}
 
 
 
