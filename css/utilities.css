@@ -3,6 +3,9 @@
   border-radius: 20px;
   color: white;
 }
+.gb-btn{
+  padding: 2px white;
+}
 
 .gb-btn-dark{
   background-color: #363537;

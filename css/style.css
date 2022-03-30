@@ -28,6 +28,15 @@ header{
   width: 100%;
 }
 
+.gb-a{
+  color: black !important;
+}
+
+.gb-a:hover{
+  color: #0B6FD1 !important;
+}
+
+
 
 
 
@@ -71,6 +80,16 @@ header{
   width: 100%;
   border-radius: 20px;
   margin: 10px 0;
+  transition: .4s;
+}
+
+#games .gb-card:hover img{
+  margin-top: -5px;
+}
+
+#games .gb-card .active{
+  padding: 3px;
+  border: 1px solid black;
 }
 
 #games .play-5 span{
@@ -93,7 +112,7 @@ header{
 
 #console .gb-card{
   filter: opacity(.7);
-  transition: .3s;
+  transition: .4s;
 }
 
 #console .gb-card:hover{
@@ -135,6 +154,7 @@ header{
   width: 100%;
   border-radius: 20px;
   margin: 10px 0;
+  cursor: pointer;
 }
 /* /Nuove uscite  */
 
@@ -241,6 +261,11 @@ footer a{
   text-decoration: none;
 }
 
+footer li:hover a{
+  color: white;
+  text-decoration: underline;
+}
+
 .gb-sie-logo{
   width: 100px;
 }
@@ -251,4 +276,29 @@ footer a{
 
 footer a.info{
   text-decoration: underline;
+}
+
+footer a.info:hover{
+  color: white;
+}
+
+
+/* MEDIA  */
+@media screen and (max-width: 991px){
+  .gb-btn-dark{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 0;
+  }
+
+  .gb-lens{
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .gb-lens img{
+    width: 50px;
+  }
 }
