@@ -178,6 +178,10 @@ header{
 #sconti .gb-title-width{
   width: 70%;
 }
+
+#sconti .gb-card img{
+  width: 100%;
+}
 /* /Sconti  */
 
 
