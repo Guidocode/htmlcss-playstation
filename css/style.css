@@ -93,6 +93,7 @@ header{
 
 #console .gb-card{
   filter: opacity(.7);
+  transition: .3s;
 }
 
 #console .gb-card:hover{
@@ -153,6 +154,22 @@ header{
 /* Ps plus  */
 #ps-plus{
   background-color: #BEBCBB;
+}
+
+#ps-plus .logo-ps-plus{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#ps-plus .april-image{
+  width: 100%;
+}
+
+#ps-plus .gb-btn-grey{
+  background-color: #D9DADC;
+  color: #0066CD;
+  border: 0;
+  margin-left: 0;
 }
 /* /Ps plus  */
 
