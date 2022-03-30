@@ -178,6 +178,7 @@ header{
 
 #sconti .gb-card img{
   width: 100%;
+  margin: 10px 0;
 }
 /* /Sconti  */
 
@@ -211,6 +212,10 @@ header{
 
 
 /* Social  */
+#social .gb-card img{
+  width: 100%;
+  margin: 10px 0;
+}
 /* /Social  */
 
 
