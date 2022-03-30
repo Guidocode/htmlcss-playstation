@@ -14,9 +14,9 @@ header{
 }
 
 .sony-logo{
-  width: 70px;
+  width: 80px;
   filter: invert(-1);
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .gb-lens{
@@ -35,6 +35,63 @@ header{
 .gb-a:hover{
   color: #0B6FD1 !important;
 }
+
+header .angle{
+  display: inline-block;
+}
+
+.fa-angle-up,
+.fa-angle-down{
+  color: grey;
+  font-size: .8rem;
+}
+
+.fa-angle-up{
+  display: none;
+}
+
+header li:active .fa-angle-up{
+  display: block;
+}
+
+header li:active .fa-angle-down{
+  display: none;
+}
+
+.gb-header-bottom{
+  position: relative;
+}
+
+header .gb-dropdown{
+  position: absolute;
+  top: 76px;
+  left: 0;
+  width: 100%;
+  background-color: #F8F9FA;
+  display: none;
+}
+
+header li:active:focus-within .gb-dropdown{
+  display: block;
+}
+
+header .gb-dropdown a{
+  color: black;
+  text-decoration: none;
+}
+
+header .gb-dropdown a:hover img{
+  box-shadow: 0 0 10px grey;
+}
+
+header .gb-dropdown .gb-sub-menu{
+  border-top: 1px solid #BEBCBB;
+  /* border-radius: 0 0 20px 20px; */
+}
+
+
+
+
 
 
 
@@ -306,12 +363,12 @@ footer a.info:hover{
   .gb-lens{
     margin: 10px 0;
     width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #BEBCBB;
+    border-radius: 2px;
   }
 
   .gb-lens img{
-    width: 50px;
+    width: 40px;
   }
   /* /header  */
 
