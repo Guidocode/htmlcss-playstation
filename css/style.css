@@ -226,5 +226,29 @@ header{
 /* 
   FOOTER 
 */
+footer{
+  background-color: #00439C;
+  color: white;
+  font-size: .8rem;
+}
 
+.gb-logo-footer{
+  width: 80px;
+}
 
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.gb-sie-logo{
+  width: 100px;
+}
+
+.gb-language-logo{
+  width: 15px;
+}
+
+footer a.info{
+  text-decoration: underline;
+}
