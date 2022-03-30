@@ -161,15 +161,12 @@ header{
   margin-bottom: 20px;
 }
 
-#ps-plus .april-image{
+#ps-plus .plus-image{
   width: 100%;
 }
 
 #ps-plus .gb-btn-grey{
-  background-color: #D9DADC;
   color: #0066CD;
-  border: 0;
-  margin-left: 0;
 }
 /* /Ps plus  */
 
@@ -188,6 +185,27 @@ header{
 /* Ps now  */
 #ps-now{
   background-color: #161C3B;
+}
+
+#ps-now .logo-ps-now{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#ps-now .now-image{
+  width: 100%;
+}
+
+#ps-now .now-image{
+  width: 100%;
+}
+
+#ps-now p{
+  color: white;
+}
+
+#ps-now .gb-btn-grey{
+  color: black;
 }
 /* /Ps now  */
 

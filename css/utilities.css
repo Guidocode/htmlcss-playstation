@@ -2,19 +2,25 @@
 .gb-btn{
   border-radius: 20px;
   color: white;
+}
+
+.gb-btn-dark{
   background-color: #363537;
   margin: 0 10px;
 }
 
 .gb-btn-danger{
   background-color: #CD3D10;
-  margin-left: 0;
 }
 
 .gb-btn-primary{
   background-color: #2C64E6;
-  margin-left: 0;
   margin-bottom: 20px;
+}
+
+.gb-btn-grey{
+  background-color: #D9DADC;
+  border: #D9DADC;
 }
 /* /BTN  */
 
