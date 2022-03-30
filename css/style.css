@@ -76,6 +76,10 @@ header{
   width: 500px;
 }
 
+#games .gb-card{
+  min-height: 150px;
+}
+
 #games .gb-card img{
   width: 100%;
   border-radius: 20px;
@@ -89,7 +93,7 @@ header{
 
 #games .gb-card .active{
   padding: 3px;
-  border: 1px solid black;
+  border: 2px solid #0066CD;
 }
 
 #games .play-5 span{
@@ -138,7 +142,7 @@ header{
 }
 
 #it-takes-two img{
-  width: 50%;
+  width: 300px;
   margin-bottom: 20px;
 }
 /* /it-takes-two */
@@ -148,6 +152,10 @@ header{
 #nuove-uscite{
   color: white;
   background-color: #1F1F1F;
+}
+
+#nuove-uscite .gb-card{
+  padding-bottom: 30px;
 }
 
 #nuove-uscite .gb-card img{
@@ -249,7 +257,7 @@ header{
 footer{
   background-color: #00439C;
   color: white;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .gb-logo-footer{
@@ -285,12 +293,16 @@ footer a.info:hover{
 
 /* MEDIA  */
 @media screen and (max-width: 991px){
+  
+  /* btn  */
   .gb-btn-dark{
     padding-left: 150px;
     padding-right: 150px;
     margin: 0;
   }
+  /* /btn  */
 
+  /* header  */
   .gb-lens{
     margin: 10px 0;
     width: 100%;
@@ -301,4 +313,23 @@ footer a.info:hover{
   .gb-lens img{
     width: 50px;
   }
+  /* /header  */
+
+}
+
+@media screen and (min-width: 991px){
+  
+  /* Social  */
+  #social{
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* /Social  */
+
+  /* it-takes-two  */
+  #it-takes-two img{
+    width: 50%;
+  }
+  /* /it-takes-two */
+
 }
