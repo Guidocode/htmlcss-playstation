@@ -36,30 +36,45 @@ header{
   color: #0B6FD1 !important;
 }
 
+/* Angle  */
 header .angle{
   display: inline-block;
 }
 
-.fa-angle-up,
-.fa-angle-down{
-  color: grey;
-  font-size: .8rem;
+header .angle img{
+  width: 10px;
 }
 
-.fa-angle-up{
+.angle-down-hover{
   display: none;
 }
 
-header li:hover .fa-angle-up{
+header li:hover .angle-down-hover{
   display: block;
 }
 
-header li:hover .fa-angle-down{
+header li:hover .angle-down{
   display: none;
 }
 
+header li:hover .angle-down-hover{
+  animation-name: rotation;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotation{
+  0%{transform: rotate(180deg)}
+}
+/* /Angle  */
+
 .gb-header-bottom{
   position: relative;
+}
+
+li:hover .gb-nav{
+  transform: scale(3);
 }
 
 header .gb-dropdown{
