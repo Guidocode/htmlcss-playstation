@@ -383,6 +383,20 @@ header .gb-dropdown img{
 }
 /* /Social  */
 
+/* trick per vedere bene ancoraggio */
+#games::before,
+#console::before,
+#it-takes-two::before,
+#nuove-uscite::before,
+#esplora::before,
+#sconti-primavera::before{
+  content: '';
+  display: block;
+  min-height: 100px;
+  margin: -100px 0 0;
+}
+/* /trick per vedere bene ancoraggio */
+
 
 
 
