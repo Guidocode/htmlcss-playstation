@@ -50,11 +50,11 @@ header .angle{
   display: none;
 }
 
-header li:active .fa-angle-up{
+header li:hover .fa-angle-up{
   display: block;
 }
 
-header li:active .fa-angle-down{
+header li:hover .fa-angle-down{
   display: none;
 }
 
@@ -69,9 +69,11 @@ header .gb-dropdown{
   width: 100%;
   background-color: #F8F9FA;
   display: none;
+  /* opacity: 0; */
 }
 
-header li:active:focus-within .gb-dropdown{
+header li:hover .gb-dropdown{
+  /* opacity: 1; */
   display: block;
 }
 
@@ -86,10 +88,12 @@ header .gb-dropdown a:hover img{
 
 header .gb-dropdown .gb-sub-menu{
   border-top: 1px solid #BEBCBB;
-  /* border-radius: 0 0 20px 20px; */
 }
 
-
+header .gb-dropdown img{
+  width: 80px;
+  border-radius: 5px;
+}
 
 
 
@@ -101,7 +105,6 @@ header .gb-dropdown .gb-sub-menu{
   JUMBOTRON 
 */
 .jumbotron{
-  height: 550px;
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
@@ -109,6 +112,7 @@ header .gb-dropdown .gb-sub-menu{
 }
 
 .jumbo-logo{
+  padding-top: 50%;
   width: 200px;
 }
 
@@ -199,6 +203,7 @@ header .gb-dropdown .gb-sub-menu{
 }
 
 #it-takes-two img{
+  padding-top: 10%;
   width: 300px;
   margin-bottom: 20px;
 }
@@ -252,6 +257,7 @@ header .gb-dropdown .gb-sub-menu{
 
 #ps-plus .gb-btn-grey{
   color: #0066CD;
+  box-shadow: none;
 }
 /* /Ps plus  */
 

@@ -3,9 +3,6 @@
   border-radius: 20px;
   color: white;
 }
-.gb-btn{
-  padding: 2px white;
-}
 
 .gb-btn-dark{
   background-color: #363537;
@@ -24,6 +21,17 @@
 .gb-btn-grey{
   background-color: #D9DADC;
   border: #D9DADC;
+}
+
+.gb-btn-dark:hover,
+.gb-btn-primary:hover{
+  box-shadow: 0 0 0 2px white inset;
+}
+
+.gb-btn-danger:hover,
+.gb-btn-light:hover,
+.gb-btn-grey:hover{
+  box-shadow: 0 0 0 2px black inset;
 }
 /* /BTN  */
 
