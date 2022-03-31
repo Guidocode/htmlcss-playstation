@@ -28,6 +28,21 @@ header{
   width: 100%;
 }
 
+.gb-search{
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.gb-input{
+  border: none;
+  /* width: calc(100% - 55px); */
+  /* height: 55px; */
+  width: 200px;
+  background-color: #F8F9FA;
+  border-radius: 3px;
+  padding-left: 5px;
+} 
+
 .gb-a{
   color: black !important;
 }
@@ -463,6 +478,7 @@ footer a.info:hover{
 
   .gb-lens img{
     width: 40px;
+    display: none;
   }
 
   .gb-dropdown{
@@ -492,5 +508,11 @@ footer a.info:hover{
     width: 50%;
   }
   /* /it-takes-two */
+
+  /* header  */
+  .gb-search{
+    display: none;
+  }
+  /* /header  */
 
 }
