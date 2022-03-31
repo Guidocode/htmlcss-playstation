@@ -90,6 +90,22 @@ header .gb-dropdown{
 header li:hover .gb-dropdown{
   /* opacity: 1; */
   display: block;
+  overflow: hidden;
+}
+
+header li:hover .gb-dropdown{
+  animation-name: dropSlow;
+  animation-duration: .3s;
+  animation-timing-function: ease-in
+  animation-iteration-count: 1;
+}
+
+@keyframes dropSlow{
+  0%{height: 0;}
+  25%{height: 25%;}
+  50%{height: 50%;}
+  75%{height: 75%;}
+  100%{height: 100%;}
 }
 
 header .gb-dropdown a{
@@ -161,10 +177,13 @@ header .gb-dropdown img{
   border-radius: 20px;
   margin: 10px 0;
   transition: .4s;
+  opacity: .8;
 }
 
 #games .gb-card:hover img{
   margin-top: -5px;
+  box-shadow: 0 10px 10px grey;
+  opacity: 1;
 }
 
 #games .gb-card .active{
@@ -200,8 +219,13 @@ header .gb-dropdown img{
 }
 
 #console .gb-card.active{
-  border-bottom: 2px solid #006CCD;
+  border: 2px solid #006CCD;
+  border-radius: 15px;
   filter: opacity(1);
+}
+
+#console .gb-card.active:hover{
+  box-shadow: 0 0 10px #006CCD;
 }
 
 #console .gb-card img{
@@ -233,6 +257,14 @@ header .gb-dropdown img{
 
 #nuove-uscite .gb-card{
   padding-bottom: 30px;
+}
+
+#nuove-uscite .gb-card img{
+  transition: .3s;
+}
+
+#nuove-uscite .gb-card:hover img{
+  transform: scale(1.03);
 }
 
 #nuove-uscite .gb-card img{
@@ -285,8 +317,27 @@ header .gb-dropdown img{
 #sconti .gb-card img{
   width: 100%;
   margin: 10px 0;
+  transition: .3s;
+  border-radius: 15px;
+}
+
+#sconti .gb-card:hover img{
+  transform: scale(1.03);
 }
 /* /Sconti  */
+
+
+/* Sconti di primavera  */
+#sconti-primavera img{
+  width: 100%;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+#sconti-primavera img:hover{
+  transform: scale(1.03);
+}
+/* /Sconti di primavera  */
 
 
 /* Ps now  */
@@ -321,6 +372,14 @@ header .gb-dropdown img{
 #social .gb-card img{
   width: 100%;
   margin: 10px 0;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px grey;
+  transition: .3s;
+}
+
+#social .gb-card:hover img{
+  box-shadow: 0 0 30px grey;
+  transform: scale(1.03);
 }
 /* /Social  */
 
@@ -391,7 +450,17 @@ footer a.info:hover{
   .gb-lens img{
     width: 40px;
   }
+
+  .gb-dropdown{
+    display: none !important;
+  }
   /* /header  */
+
+  /* Sconti di primavera  */
+  #sconti-primavera{
+    text-align: center;
+  }
+  /* /Sconti di primavera  */
 
 }
 
