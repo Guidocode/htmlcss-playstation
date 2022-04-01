@@ -61,6 +61,7 @@ header .angle img{
 }
 
 .angle-down-hover{
+  transform: scaley(-1);
   display: none;
 }
 
@@ -80,7 +81,8 @@ header li:hover .angle-down-hover{
 }
 
 @keyframes rotation{
-  0%{transform: rotate(180deg)}
+  0%{transform: rotate(0)}
+  100%{transform: rotate(-180deg)}
 }
 /* /Angle  */
 
@@ -89,7 +91,7 @@ header li:hover .angle-down-hover{
 }
 
 li:hover .gb-nav{
-  transform: scale(3);
+  /* transform: scale(3); */
 }
 
 header .gb-dropdown{
@@ -111,7 +113,7 @@ header li:hover .gb-dropdown{
 header li:hover .gb-dropdown{
   animation-name: dropSlow;
   animation-duration: .3s;
-  animation-timing-function: ease-in
+  animation-timing-function: ease-in;
   animation-iteration-count: 1;
 }
 
